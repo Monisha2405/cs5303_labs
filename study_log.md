@@ -57,3 +57,16 @@ Next Steps For Tomorrow (Day 5)
 Begin CS 5303 Week 1 C++ concepts: variables, data types, and output formatting.
 
 Receive Program 1 assignment breakdown.
+
+2026-08-31 (Day 5)
+Completed Today
+Mastered C++ primitive data types (int, double, char, string, bool).
+
+Practiced standard input/output using std::cin and std::cout.
+
+Built and tested CS 5303 Program 1 coverage calculator script (program1.cpp).
+
+Next Steps For Tomorrow (Day 6)
+Learn C++ mathematical formatting (std::fixed, std::setprecision).
+
+Refine Program 1 edge cases and prepare final code submission.
