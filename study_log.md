@@ -70,3 +70,18 @@ Next Steps For Tomorrow (Day 6)
 Learn C++ mathematical formatting (std::fixed, std::setprecision).
 
 Refine Program 1 edge cases and prepare final code submission.
+
+2026-09-01 (Day 6)
+Completed Today
+Mastered <iomanip> column alignment using std::setw, std::left, and std::right.
+
+Verified Program 1 calculations, input handling, and output formatting.
+
+Learned C++ decision structures: if, else if, else with relational and logical operators.
+
+Built sequencing quality evaluation script (quality_filter.cpp).
+
+Next Steps For Tomorrow (Day 7)
+Explore C++ switch statements and nested conditions.
+
+Begin Rosalind algorithmic problem solving in Python.
