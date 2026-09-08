@@ -85,3 +85,16 @@ Next Steps For Tomorrow (Day 7)
 Explore C++ switch statements and nested conditions.
 
 Begin Rosalind algorithmic problem solving in Python.
+
+2026-09-02 (Day 7)
+Completed Today
+Mastered C++ switch statements, case stacking, and default fallbacks (base_complement.cpp).
+
+Activated bioinfo environment and solved first Rosalind challenge in Python (count_nucleotides.py).
+
+Verified formatted nucleotide frequency counting.
+
+Next Steps For Tomorrow (Day 8)
+CS 5303 Program 1 final submission check.
+
+Introduce C++ while/for loops and solve Rosalind RNA (Transcription).
