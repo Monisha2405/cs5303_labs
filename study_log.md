@@ -98,3 +98,19 @@ Next Steps For Tomorrow (Day 8)
 CS 5303 Program 1 final submission check.
 
 Introduce C++ while/for loops and solve Rosalind RNA (Transcription).
+
+2026-09-03 (Day 8)
+Completed Today
+Performed final code quality and edge-case verification on CS 5303 Program 1.
+
+Tested clean compilation with the -Wall compiler flag.
+
+Learned the anatomy of C++ loops: while loops and count-controlled for loops.
+
+Understood counter initialization, boundary conditions, and avoiding infinite loops.
+
+Next Steps For Tomorrow (Day 9)
+Submit CS 5303 Program 1 on Canvas.
+
+Explore simple loop iteration over biological strings in Python.
+
