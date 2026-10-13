@@ -114,3 +114,45 @@ Submit CS 5303 Program 1 on Canvas.
 
 Explore simple loop iteration over biological strings in Python.
 
+2026-09-04 (Day 9)
+Completed Today
+Submitted CS 5303 Program 1 on Canvas.
+
+Mastered the Accumulator pattern (running totals) in C++ using for loops.
+
+Learned Python loop indentation and combined for loops with if conditions to manually count sequence features.
+
+Next Steps For Tomorrow (Day 10)
+Learn while loop sentinel values in C++.
+
+Solve Rosalind reverse complement logic step by step in Python.
+
+2026-09-05 (Day 10)
+Completed Today
+Mastered sentinel-controlled while loops in C++ using priming and update reads.
+
+Built interactive quality filter script (sentinel_filter.cpp).
+
+Learned string accumulation and concatenation in Python using empty strings.
+
+Constructed step-by-step DNA complement generator (build_complement.py).
+
+Next Steps For Tomorrow (Day 11)
+Draft and finalize the 5-point CS 5303 Extra Credit History Paper.
+
+Secure early grade bonus before Exam 1.
+
+2026-09-06 (Day 11)
+Completed Today
+Reviewed CS 5303 syllabus extra credit policies and sent topic request email to Dr. Becker.
+
+Prepared academic paper template for 5-point semester grade buffer.
+
+Learned Python index numbering (positive and negative indices).
+
+Mastered Python string slicing syntax [start:stop:step] and sequence reversal using [::-1].
+
+Next Steps For Tomorrow (Day 12)
+Combine complement mapping with sequence reversal to solve Rosalind Stronghold REVC.
+
+Begin C++ function prototypes and return types.
