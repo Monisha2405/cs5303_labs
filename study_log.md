@@ -1,158 +1,210 @@
-Bioinformatics & CS 5303 Study Log
+# Bioinformatics & CS 5303 Study Log
 
-2026-08-27 (Day 1)
-Completed Today
+## 2026-08-27 — Day 1
 
-Set up WSL (Ubuntu Linux), VS Code, and essential C++/Python/WSL extensions.
+### Completed
 
-Connected VS Code directly to Linux environment.
+- Set up WSL (Ubuntu Linux), VS Code, and essential C++/Python/WSL extensions.
+- Connected VS Code directly to the Linux environment.
+- Mastered basic Unix navigation commands: `pwd`, `mkdir`, `cd`, `touch`, and `ls`.
 
-Mastered basic Unix navigation commands: pwd, mkdir, cd, touch, ls.
+### Next steps — Day 2
 
-Next Steps For Tomorrow (Day 2)
+- Learn file copy/move commands (`cp`, `mv`) and basic text viewing in Unix.
+- Initialize Git and set up a GitHub profile.
 
-Learn file copy/move commands (cp, mv) and basic text viewing in Unix.
+## 2026-08-28 — Day 2
 
-Initialize Git and set up GitHub profile.
+### Completed
 
-2026-08-28 (Day 2)
-Completed Today
-Mastered Unix file management: cp, mv, rm.
+- Mastered Unix file management: `cp`, `mv`, and `rm`.
+- Practiced text-stream inspection commands on sequence data: `cat`, `head`, `tail`, and `grep`.
+- Created a GitHub account and configured Git identity locally.
+- Initialized the first Git repository in `cs5303_labs`.
 
-Practiced text stream inspection commands on sequence data: cat, head, tail, grep.
+### Next steps — Day 3
 
-Created GitHub account and configured Git identity locally.
+- Push the local Git repository to GitHub.
+- Set up a Mamba/Conda environment for bioinformatics tools.
 
-Initialized first Git repository in cs5303_labs.
+## 2026-08-29 — Day 3
 
-Next Steps For Tomorrow (Day 3)
-Push local Git repo to GitHub online.
+### Completed
 
-Set up Mamba/Conda environment for bioinformatics tools.
+- Linked the local Git repository to the remote GitHub repository.
+- Pushed the first codebase snapshot to GitHub (`cs5303_labs`).
+- Installed Miniforge/Mamba, a package and environment manager, in Linux.
+- Created an isolated `bioinfo` Conda environment with Python 3.11 and Biopython.
 
-2026-08-29 (Day 3)
-Completed Today
-Linked local Git repository to remote GitHub repository online.
+### Next steps — Day 4
 
-Pushed first codebase snapshot to GitHub (cs5303_labs).
+- Learn environment activation with `mamba activate bioinfo`.
+- Configure VS Code workspace settings and prepare for CS 5303 C++ Week 1 materials.
 
-Installed Miniforge / Mamba package and environment manager in Linux.
+## 2026-08-30 — Day 4
 
-Created isolated bioinfo Conda environment with Python 3.11 and Biopython.
+### Completed
 
-Next Steps For Tomorrow (Day 4)
-Learn environment activation (mamba activate bioinfo).
+- Activated the `bioinfo` Mamba environment and tested `test_biopython.py`.
+- Verified that the C++ compiler (`g++`) was installed in Linux.
+- Built, compiled, and executed the first C++ program (`hello_cs5303.cpp`).
 
-Configure VS Code workspace settings and prepare for CS 5303 C++ week 1 materials.
+### Next steps — Day 5
 
-2026-08-30 (Day 4)
-Completed Today
-Activated bioinfo Mamba environment and tested Biopython script (test_biopython.py).
+- Begin CS 5303 Week 1 C++ concepts: variables, data types, and output formatting.
+- Receive the Program 1 assignment breakdown.
 
-Verified C++ compiler (g++) installation in Linux.
+## 2026-08-31 — Day 5
 
-Built, compiled, and executed first C++ program (hello_cs5303.cpp).
+### Completed
 
-Next Steps For Tomorrow (Day 5)
-Begin CS 5303 Week 1 C++ concepts: variables, data types, and output formatting.
+- Mastered C++ primitive data types: `int`, `double`, `char`, `string`, and `bool`.
+- Practiced standard input/output using `std::cin` and `std::cout`.
+- Built and tested the CS 5303 Program 1 coverage calculator (`program1.cpp`).
 
-Receive Program 1 assignment breakdown.
+### Next steps — Day 6
 
-2026-08-31 (Day 5)
-Completed Today
-Mastered C++ primitive data types (int, double, char, string, bool).
+- Learn C++ mathematical formatting with `std::fixed` and `std::setprecision`.
+- Refine Program 1 edge cases and prepare the final code submission.
 
-Practiced standard input/output using std::cin and std::cout.
+## 2026-09-01 — Day 6
 
-Built and tested CS 5303 Program 1 coverage calculator script (program1.cpp).
+### Completed
 
-Next Steps For Tomorrow (Day 6)
-Learn C++ mathematical formatting (std::fixed, std::setprecision).
+- Mastered `<iomanip>` column alignment using `std::setw`, `std::left`, and `std::right`.
+- Verified Program 1 calculations, input handling, and output formatting.
+- Learned C++ decision structures: `if`, `else if`, and `else`, with relational and logical operators.
+- Built the sequencing quality evaluation program (`quality_filter.cpp`).
 
-Refine Program 1 edge cases and prepare final code submission.
+### Next steps — Day 7
 
-2026-09-01 (Day 6)
-Completed Today
-Mastered <iomanip> column alignment using std::setw, std::left, and std::right.
+- Explore C++ `switch` statements and nested conditions.
+- Begin solving Rosalind algorithmic problems in Python.
 
-Verified Program 1 calculations, input handling, and output formatting.
+## 2026-09-02 — Day 7
 
-Learned C++ decision structures: if, else if, else with relational and logical operators.
+### Completed
 
-Built sequencing quality evaluation script (quality_filter.cpp).
+- Mastered C++ `switch` statements, stacked `case` labels, and default fallbacks (`base_complement.cpp`).
+- Activated the `bioinfo` environment and solved the first Rosalind challenge in Python (`count_nucleotides.py`).
+- Verified formatted nucleotide frequency counting.
 
-Next Steps For Tomorrow (Day 7)
-Explore C++ switch statements and nested conditions.
+### Next steps — Day 8
 
-Begin Rosalind algorithmic problem solving in Python.
+- Complete the final submission check for CS 5303 Program 1.
+- Introduce C++ `while` and `for` loops and solve Rosalind RNA (Transcription).
 
-2026-09-02 (Day 7)
-Completed Today
-Mastered C++ switch statements, case stacking, and default fallbacks (base_complement.cpp).
+## 2026-09-03 — Day 8
 
-Activated bioinfo environment and solved first Rosalind challenge in Python (count_nucleotides.py).
+### Completed
 
-Verified formatted nucleotide frequency counting.
+- Performed final code-quality and edge-case verification on CS 5303 Program 1.
+- Tested clean compilation with the `-Wall` compiler flag.
+- Learned the anatomy of C++ loops: `while` loops and count-controlled `for` loops.
+- Understood counter initialization, boundary conditions, and how to avoid infinite loops.
 
-Next Steps For Tomorrow (Day 8)
-CS 5303 Program 1 final submission check.
+### Next steps — Day 9
 
-Introduce C++ while/for loops and solve Rosalind RNA (Transcription).
+- Submit CS 5303 Program 1 on Canvas.
+- Explore simple loop iteration over biological strings in Python.
 
-2026-09-03 (Day 8)
-Completed Today
-Performed final code quality and edge-case verification on CS 5303 Program 1.
+## 2026-09-04 — Day 9
 
-Tested clean compilation with the -Wall compiler flag.
+### Completed
 
-Learned the anatomy of C++ loops: while loops and count-controlled for loops.
+- Submitted CS 5303 Program 1 on Canvas.
+- Mastered the accumulator pattern (running totals) in C++ using `for` loops.
+- Learned Python loop indentation and combined `for` loops with `if` conditions to manually count sequence features.
 
-Understood counter initialization, boundary conditions, and avoiding infinite loops.
+### Next steps — Day 10
 
-Next Steps For Tomorrow (Day 9)
-Submit CS 5303 Program 1 on Canvas.
+- Learn sentinel values in C++ `while` loops.
+- Solve the Rosalind reverse-complement problem step by step in Python.
 
-Explore simple loop iteration over biological strings in Python.
+## 2026-09-05 — Day 10
 
-2026-09-04 (Day 9)
-Completed Today
-Submitted CS 5303 Program 1 on Canvas.
+### Completed
 
-Mastered the Accumulator pattern (running totals) in C++ using for loops.
+- Mastered sentinel-controlled `while` loops in C++ using priming and update reads.
+- Built the interactive quality filter program (`sentinel_filter.cpp`).
+- Learned string accumulation and concatenation in Python using empty strings.
+- Constructed a step-by-step DNA complement generator (`build_complement.py`).
 
-Learned Python loop indentation and combined for loops with if conditions to manually count sequence features.
+### Next steps — Day 11
 
-Next Steps For Tomorrow (Day 10)
-Learn while loop sentinel values in C++.
+- Draft and finalize the 5-point CS 5303 Extra Credit History Paper.
+- Secure the early grade bonus before Exam 1.
 
-Solve Rosalind reverse complement logic step by step in Python.
+## 2026-09-06 — Day 11
 
-2026-09-05 (Day 10)
-Completed Today
-Mastered sentinel-controlled while loops in C++ using priming and update reads.
+### Completed
 
-Built interactive quality filter script (sentinel_filter.cpp).
+- Reviewed the CS 5303 syllabus extra-credit policies and sent a topic request email to Dr. Becker.
+- Prepared an academic paper template for a 5-point semester grade buffer.
+- Learned Python index numbering (positive and negative indices).
+- Mastered Python string slicing syntax (`[start:stop:step]`) and sequence reversal using `[::-1]`.
 
-Learned string accumulation and concatenation in Python using empty strings.
+### Next steps — Day 12
 
-Constructed step-by-step DNA complement generator (build_complement.py).
+- Combine complement mapping with sequence reversal to solve Rosalind Stronghold REVC.
+- Begin C++ function prototypes and return types.
 
-Next Steps For Tomorrow (Day 11)
-Draft and finalize the 5-point CS 5303 Extra Credit History Paper.
 
-Secure early grade bonus before Exam 1.
 
-2026-09-06 (Day 11)
-Completed Today
-Reviewed CS 5303 syllabus extra credit policies and sent topic request email to Dr. Becker.
+## Project Files
 
-Prepared academic paper template for 5-point semester grade buffer.
-
-Learned Python index numbering (positive and negative indices).
-
-Mastered Python string slicing syntax [start:stop:step] and sequence reversal using [::-1].
-
-Next Steps For Tomorrow (Day 12)
-Combine complement mapping with sequence reversal to solve Rosalind Stronghold REVC.
-
-Begin C++ function prototypes and return types.
+| Item | Explanation |
+|---|---|
+| `aa_charge` | Compiled executable that classifies a one-letter amino-acid code by charge or hydrophobicity. |
+| `aa_charge.cpp` | C++ source for amino-acid charge classification. |
+| `base_complement` | Compiled executable that reports the complement of a DNA base and handles invalid input. |
+| `base_complement.cpp` | C++ source for DNA single-base complement lookup. |
+| `build_complement.py` | Builds and prints a DNA complement strand one base at a time. |
+| `codon_checker` | Compiled executable that classifies a codon as a start, stop, or standard amino-acid codon. |
+| `codon_checker.cpp` | C++ source for codon classification. |
+| `count_gc_loop.py` | Counts G and C bases in a sample DNA sequence using a loop. |
+| `count_nucleotides.py` | Counts A, C, G, and T in a DNA sequence and prints the counts in Rosalind format. |
+| `cpp_basics` | Compiled executable for a C++ sample-summary program. |
+| `cpp_basics.cpp` | C++ source that reads a sample name, read count, and GC percentage, then displays them. |
+| `dna_sample.fastq` | Example FASTQ file containing three sequencing reads and their quality strings. |
+| `format_demo` | Compiled executable demonstrating formatted, column-aligned output. |
+| `format_demo.cpp` | C++ source demonstrating output alignment and field widths. |
+| `func_intro` | Compiled executable demonstrating a simple C++ function. |
+| `func_intro.cpp` | C++ source with a function that doubles an integer value. |
+| `func_prototype.cpp` | C++ example of declaring a function prototype and defining it separately; calculates total bases from read count and length. |
+| `gc_calculator` | Compiled executable that calculates GC percentage from nucleotide counts. |
+| `gc_calculator.cpp` | C++ source for calculating total bases and GC percentage from A, T, G, and C counts. |
+| `hello_cs5303` | Compiled executable that prints a CS 5303 and bioinformatics greeting. |
+| `hello_cs5303.cpp` | C++ source for the greeting program. |
+| `lab_menu` | Compiled executable that presents a small genomic utility menu. |
+| `lab_menu.cpp` | C++ source for a menu with system-status, pipeline-display, and exit options. |
+| `manual_count.py` | Counts G bases in a sample sequence with a loop and reports the running count. |
+| `manual_transcribe.py` | Converts a sample DNA sequence to RNA by processing bases in a loop. |
+| `ngs_budget` | Compiled executable for an NGS sequencing yield and cost estimate. |
+| `ngs_budget.cpp` | C++ source that estimates total sequencing bases and cost from genome size, coverage, and price. |
+| `pcr_double` | Compiled executable that simulates PCR molecule doubling across cycles. |
+| `pcr_double.cpp` | C++ source for the PCR cycle simulation. |
+| `pcr_temp` | Compiled executable for a temperature conversion example. |
+| `pcr_temp.cpp` | C++ source that converts a denaturation temperature from Celsius to Fahrenheit. |
+| `phred_eval` | Compiled executable that evaluates a Phred score and reports an error probability and quality category. |
+| `phred_eval.cpp` | C++ source for converting a Phred score to error probability and assessing its quality benchmark. |
+| `program1` | Compiled executable for the Program 1 sequencing coverage calculator. |
+| `program1.cpp` | C++ source that calculates sequencing yield and coverage statistics from genome and read inputs. |
+| `quality_filter` | Compiled executable for an interactive sequencing-read quality check. |
+| `quality_filter.cpp` | C++ source that takes a read ID and mean Phred quality score for evaluation. |
+| `read_accumulator` | Compiled executable that totals read lengths entered by the user. |
+| `read_accumulator.cpp` | C++ source demonstrating a running total of read lengths. |
+| `read_average` | Compiled executable that calculates the average read length. |
+| `read_average.cpp` | C++ source that gathers read lengths and calculates their average. |
+| `read_bases.py` | Iterates through a sample DNA sequence and prints each nucleotide. |
+| `read_collector` | Compiled executable that collects read lengths until a sentinel value is entered. |
+| `read_collector.cpp` | C++ source demonstrating sentinel-controlled input and totaling read lengths. |
+| `rev_comp.py` | Builds a DNA complement and reverses it to produce the reverse complement. |
+| `reverse_demo.py` | Demonstrates reversing a DNA string with Python slicing. |
+| `rosalind_revc.py` | Builds and prints the reverse complement of a sample sequence for the Rosalind REVC exercise. |
+| `sentinel_filter` | Compiled executable that evaluates Phred quality scores until a sentinel value is entered. |
+| `sentinel_filter.cpp` | C++ source demonstrating sentinel-controlled input for quality scores. |
+| `slice_primer.py` | Demonstrates extracting sequence slices and reversing a sample read. |
+| `study_log.md` | Study journal recording CS 5303 and bioinformatics progress, completed topics, and next steps. |
+| `test_biopython.py` | Uses Biopython’s `Seq` type to print a DNA sequence, its complement, and reverse complement. |
+| `transcribe_dna_to_rna.py` | Transcribes a sample DNA sequence to RNA by replacing T with U. |
